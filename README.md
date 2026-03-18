@@ -39,6 +39,7 @@ CoinTrace helps you reach that 80% faster with zero judgment, beautiful visuals 
 
 <p align="center">
   <!-- You should replace these with real screenshot URLs -->
+  https://known-yellow-mmbkliuwhu.edgeone.app/Screenshot%202026-03-18%20215929.png
   <img src="https://via.placeholder.com/800x450/0f172a/60a5fa?text=Home+Dashboard+-+Dark" width="48%" alt="Dashboard Dark"/>
   <img src="https://via.placeholder.com/800x450/ffffff/6b46c1?text=Quick+Add+Flow" width="48%" alt="Quick Add"/>
   <br/><br/>
