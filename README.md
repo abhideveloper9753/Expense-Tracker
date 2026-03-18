@@ -1,122 +1,60 @@
-# 💸 Expense Tracker
+# ✦ CoinTrace – Modern Expense Tracker
 
 <p align="center">
-  Track your daily expenses with ease 🚀  
-  A modern full-stack expense management web app.
+  <img src="https://img.shields.io/badge/Status-Under%20Active%20Development-orange?style=for-the-badge&logo=rocket&logoColor=white" alt="status"/>
+  <img src="https://img.shields.io/badge/Finance%20for-Humans-6B46C1?style=for-the-badge&logoColor=white" alt="tagline"/>
+  <img src="https://img.shields.io/github/license/yourusername/cointrace?style=for-the-badge&color=success" alt="license"/>
 </p>
-
----
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Frontend-HTML%20%7C%20CSS%20%7C%20JS-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Backend-Node.js%20%7C%20Express-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Database-MongoDB-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
+  <i>Stop wondering where your money went.<br/>
+  Start knowing where it's going — before you spend it.</i>
 </p>
 
----
+<br/>
 
-## ✨ Features
+## ✨ One-line philosophy
 
-- 🔐 Secure Authentication (Login/Register)
-- ➕ Add & manage expenses
-- 📊 Track spending history
-- ✏️ Edit & update entries
-- ❌ Delete expenses
-- 📱 Fully responsive design
-- ⚡ Fast & user-friendly UI
+**"Awareness is 80% of better spending."**
 
----
+CoinTrace helps you reach that 80% faster with zero judgment, beautiful visuals and surprisingly low friction.
 
-## 🧠 Tech Stack
+<br/>
 
-| Category   | Technology |
-|------------|------------|
-| Frontend   | HTML, CSS, JavaScript |
-| Backend    | Node.js, Express.js |
-| Database   | MongoDB Atlas |
+## 🎯 Current Highlights (2025 edition)
 
----
+| Feature                        | Status     | Why it matters                              |
+|-------------------------------|------------|----------------------------------------------|
+| Weekly + Monthly envelopes    | ✓          | Mental accounting without the spreadsheets  |
+| AI-powered category guesser   | ✓ / beta   | You type → we guess → you correct once      |
+| Voice / natural language entry| planned Q2 | "spent 42 on sushi yesterday evening"       |
+| Dark 🌙 & OLED black themes    | ✓          | Battery + eye friendly                      |
+| Export → CSV / Notion / Excel | ✓          | Your data never trapped                     |
+| Zero trackers / zero ads      | ✓          | Yes, really                                 |
+| PWA + offline-first           | ✓          | Works in airplane mode                      |
 
-## 📁 Folder Structure
+<br/>
 
+## 📸 Screenshots
 
-expense-tracker/
-│
-├── frontend/
-│ ├── index.html
-│ ├── style.css
-│ └── script.js
-│
-├── backend/
-│ ├── server.js
-│ ├── routes/
-│ ├── controllers/
-│ └── config/
-│
-├── .env
-├── package.json
-└── README.md
+<p align="center">
+  <!-- You should replace these with real screenshot URLs -->
+  <img src="https://via.placeholder.com/800x450/0f172a/60a5fa?text=Home+Dashboard+-+Dark" width="48%" alt="Dashboard Dark"/>
+  <img src="https://via.placeholder.com/800x450/ffffff/6b46c1?text=Quick+Add+Flow" width="48%" alt="Quick Add"/>
+  <br/><br/>
+  <img src="https://via.placeholder.com/800x450/111827/f472b6?text=Trend+Analysis" width="48%" alt="Trends"/>
+  <img src="https://via.placeholder.com/800x450/0f172a/4ade80?text=Envelope+View" width="48%" alt="Envelopes"/>
+</p>
 
+<br/>
 
----
+## 🛠️ Tech Stack 2025–2026
 
-## ⚙️ Setup Instructions
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/expense-tracker.git
-cd expense-tracker
-2. Install dependencies
-npm install
-3. Configure environment variables
-
-Create a .env file:
-
-MONGO_URI=your_mongodb_connection_string
-PORT=5000
-4. Run the application
-npm start
-
-🔗 App will run at:
-http://localhost:5000
-
-🚀 Deployment
-Service	Platform
-Frontend	Vercel / Netlify
-Backend	Render / Railway
-Database	MongoDB Atlas
-📸 Screenshots
-
-Add your UI screenshots here
-<img width="1560" height="796" alt="image" src="https://github.com/user-attachments/assets/81f84cb0-84a8-4645-a34c-a0df4bfa4ca0" />
-<img width="1560" height="796" alt="image" src="https://github.com/user-attachments/assets/81f84cb0-84a8-4645-a34c-a0df4bfa4ca0" />
-
-
-🔮 Future Enhancements
-
-📈 Expense analytics & charts
-
-🌙 Dark mode support
-
-🔔 Smart notifications
-
-📅 Monthly reports
-
-🤝 Contributing
-
-Contributions are welcome!
-Feel free to fork this repository and submit a pull request.
-
-📜 License
-
-This project is licensed under the MIT License.
-
-👨‍💻 Author
-
-Abhi Gautam
-
-GitHub: https://github.com/your-username
-
-LinkedIn: Add your profile link
+```text
+Frontend       ━━━►  React 19 / Vite / TypeScript / TailwindCSS 4
+State          ━━━►  Zustand + persist (or Jotai — still deciding)
+Backend (optional) ━  Supabase / PocketBase / Firebase
+Data viz       ━━━►  Recharts / Tremor / custom canvas paths
+Icons          ━━━►  lucide-react / heroicons
+PWA            ━━━►  Vite PWA plugin + custom manifest
+AI (optional)  ━━━►  OpenAI / Grok / local transformers.js
