@@ -90,6 +90,9 @@ Database	MongoDB Atlas
 📸 Screenshots
 
 Add your UI screenshots here
+<img width="1560" height="796" alt="image" src="https://github.com/user-attachments/assets/81f84cb0-84a8-4645-a34c-a0df4bfa4ca0" />
+<img width="1560" height="796" alt="image" src="https://github.com/user-attachments/assets/81f84cb0-84a8-4645-a34c-a0df4bfa4ca0" />
+
 
 🔮 Future Enhancements
 
